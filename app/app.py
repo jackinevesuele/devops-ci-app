@@ -13,7 +13,7 @@ def create_app():
     @application.get("/")
     def index():
         """Возвращает сведения о службе."""
-        return jsonify(service="devops-ci-app", version="1.1.0-bosarev", status="running")
+        return jsonify(service="devops-ci-app", version="1.0.0", status="running")
 
     return application
 
